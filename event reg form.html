@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+       
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkAv7eSNPX8FRfNGBrQZ1GTXtIffajbIZyvQ&s"alt="Event Header" style="width: 100%; max-width: 600px;">
+    
+        
+        <h1><b>EVENT REGISTRATION FORM</b></h1>
+        
+
+        
+        <small></small><h5><i>Please fill out the form below to book your spot at the event</i></h5></small>
+        <fieldset>
+            <legend><b>Basic Information</b></legend>
+            <b><label for="first-name">First Name</label></b>
+            <input id="first-name" type="text" name="first-name" placeholder="Enter your first name">
+            <br><br>
+
+            <b><label for="last-name">Last Name</label></b>
+            <input id="last-name" type="text" name="last-name" placeholder="Enter your last name">
+            <br><br>
+
+            <b><label for="email">Email</label><b>
+            <input id="email" type="email" name="email" placeholder="Enter your email">
+            <br><br>
+
+            <b><label for="phone-number">Phone Number</label><b>
+            <br> <br>
+            <input id="phone-number" type="tel" name="phone-number" placeholder="Enter your phone number">
+            <small><h6><i># Please include country code</i></h6></small>
+            
+
+           <b><label>Gender</label><b>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br><br>
+
+            <b><label for="ticket-type">Choose Your Ticket Type</label></b>
+            
+            
+            <select id="ticket-type" name="ticket-type">
+                <option value="">Select</option>
+                <option value="VIP">VIP</option>
+                <option value="Regular">Regular</option>
+            </select>
+            <small><h6># Please select one ticket type</h6></small>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Event Specific Information<b></legend>
+            <label for="no-of-tickets">Number of Tickets</label>
+            <select id="no-of-tickets" name="no-of-tickets">
+                <option value="">Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br><br>
+
+            <label>Choose Your Meal Preference</label>
+            <br>
+            <input type="radio" name="meal" value="vegetarian"> Vegetarian
+            <input type="radio" name="meal" value="vegan"> Vegan
+            <input type="radio" name="meal" value="cuisine"> Cuisine
+            <input type="radio" name="meal" value="no-preference"> No Preference
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Logistics</legend>
+            <label for="accommodation">Accommodation Needed</label>
+            <select id="accommodation" name="accommodation">
+                <option value="">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <br><br>
+
+            <label for="transportation">Transportation Needed</label>
+            <select id="transportation" name="transportation">
+                <option value="">Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <br><br>
+
+            <label for="transportation-mode">Transportation Mode</label>
+            <select id="transportation-mode" name="transportation-mode">
+                <option value="">Select</option>
+                <optgroup label="Two Wheeler">
+                    <option value="bike">Bike</option>
+                    <option value="scooty">Scooty</option>
+                </optgroup>
+                <optgroup label="Four Wheeler">
+                    <option value="car">Car</option>
+                    <option value="van">Van</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Professional Details</legend>
+            <label for="designation">Designation</label>
+            <select id="designation" name="designation">
+                <option value="">Select</option>
+                <option value="student">Student</option>
+                <option value="guest">Guest</option>
+                <option value="working">Working</option>
+            </select>
+            <br><br>
+
+            <label for="expertise">Field of Expertise</label>
+            <select id="expertise" name="expertise">
+                <option value="">Select</option>
+                <option value="no-experience">No Experience</option>
+                <option value="technology-it">Technology & IT</option>
+                <option value="engineering">Engineering</option>
+                <option value="business-management">Business and Management</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <br> <Br>
+            <legend>Required Documents</legend>
+            <label for="payment-verification">Payment Verification</label>
+            <input type="file" name="payment-verification">
+            <small><h6><i># Please upload your payment screenshot in PDF format</i></h6></small>
+            
+            
+            <label for="upload-id-proof">Upload ID Proof</label>
+            <input type="file" name="upload-id-proof">
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            <label for="feedback">We value your feedback! Please share your comments about this form or the event:</label>
+            <br><br>
+            <textarea id="feedback" name="feedback" rows="5" cols="50" placeholder="Enter your feedback here..."></textarea>
+        </fieldset>
+
+        <h4>For More Details visit our official website</h4>
+        <a href="https://colorlib.com/wp/event-planner-websites/">CLICK HERE</a>
+        <br> <Br>
+        <button type="submit" style="background-color: blue; color: white;">Submit</button>
+        <button type="reset" style="background-color: blue; color: white;">Reset</button>
+    </form>
+</body>
+</html>
